@@ -1,0 +1,126 @@
+body{
+    background-image: url("./images/hawaiilove.jpg");
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+    -webkit-background-size:cover;
+    background-size: cover;
+    
+ }
+        .wrapper{
+    color:#000;
+    height:450px;
+    width:400px;
+    top:50%;
+    left:50%;
+    position:absolute;
+    box-sizing: border-box;
+    padding:60px 30px;
+    transform: translate(-50%,-50%);
+    box-shadow: 8px 8px 50px #000;
+ }
+        .wrapper input{
+    width:100%;
+    margin-bottom:30px;
+ }
+     .wrapper input[type="text"], .wrapper input[type="password"]{
+    width:90%;
+    background:transparent;
+    height:20px;
+    font-size:16px;
+    opacity:1;
+    color:#fff;
+    border:none;
+    outline:none;
+ }
+ .form input[type="text"], .form input[type="password"]{
+  border-bottom:1px solid #c5ecc5;
+  padding:10px;
+ }
+    input::placeholder{
+    opacity:.75;
+    color:#ccc;
+    font-family:'Franklin Gothic Medium', sans-serif;
+ }
+    .btn{
+    width:80%;
+    outline:none;
+    border:none;
+    padding:10px;
+    background:#990019;
+    border-radius:10px;
+    color:#fff;
+    font-weight:bold;
+    font-size:13px;
+    margin-left:3px;
+    margin-bottom:20px; 
+  }
+    .btn:hover{
+    cursor:pointer;
+    background:#7074C1;
+    transition:all 2s ease-in-out;
+  }
+  .btn a{
+    text-decoration: none;
+    color:#fff;
+  }
+    .bottom-items{
+    color:#fff;
+    font-size:13px;
+    margin-bottom: 30px;
+  }
+   .bottom-items a{
+    color:#fff;
+    font-size:13px;
+    text-decoration:none;
+    float:right;
+  }
+   .bottom-items a:hover{
+    color:#c5ecc5;
+  }
+   .bottom-items input{
+    float:left;
+    width:10%;
+  }
+h2{
+    color:#c5ecc5;
+    margin:0;
+    padding:0;
+    font-weight:bold;
+    font-size:22px;
+    text-align:center;
+    font-family: Georgia, Times, serif;
+    margin-bottom:8px;
+}
+.social-icons{
+    text-align:center;
+}
+.social-icons a{
+    padding:10px;
+    background:#7074C1;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    color:#fff;
+    border-radius:50%;
+    margin:0 5px;
+}
+.social-icons a:nth-child(1){
+    background:#453D5B;
+}
+.social-icons a:nth-child(2){
+    background:#1B519C;
+}
+.social-icons a:nth-child(3){
+    background:#B2001A;
+}
+.social-icons i{
+    padding:8px 0;
+}
+.social-icons a:hover{
+    color:#3D8E6F;
+    transition:all .25s ease-in-out;
+    background:transparent;
+    cursor:pointer;
+}
+
+
